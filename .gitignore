@@ -1,0 +1,34 @@
+# Node modules (zależności instalowane przez npm/yarn)
+node_modules/
+.pnp
+.pnp.js
+
+# Budowanie i dystrybucja (pliki produkcyjne)
+dist/
+build/
+
+# Logi błędów
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Pliki środowiskowe (zawierające np. klucze API - bardzo ważne!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Pliki edytorów i systemowe
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cache Vite i TypeScript
+.vite/
+*.tsbuildinfo
